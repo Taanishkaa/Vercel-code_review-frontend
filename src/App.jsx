@@ -11,7 +11,7 @@ import './App.css'
 function App() {
   const [ count, setCount ] = useState(0)
   const [ code, setCode ] = useState(` function sum() {
-  return 1 + 1
+  return a + b
 }`)
 
   const [ review, setReview ] = useState(``)
